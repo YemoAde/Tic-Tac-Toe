@@ -1,0 +1,39 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game__box {
+    /* width: 10rem; */
+    flex: 0 0 33%;
+    height: 4rem;
+    border: solid 0.1rem #eee;
+    font-size: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.1rem;
+    font-weight: bold;
+}
